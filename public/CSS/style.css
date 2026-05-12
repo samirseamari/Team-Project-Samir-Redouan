@@ -117,5 +117,380 @@ button:hover {
     text-decoration: none;
     color: gray;
 }
+body{
+    width: 100%;
+}
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* !firstsection1 */
+/* firstsection  */
+.FirstSection{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 247, 246);
+}
+.ParagraphCu{
+    color: rgb(13, 148, 136);
+    background-color: rgb(220, 237, 235);
+    width: 180px;
+    border-radius: 16px;
+    border: 1px solid ;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+}
+.HeroTitle{
+    font-size: 40px;
+    margin-top: 10px;
+}
+.HeroTitle2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.ParagraphSec1{
+    color: gray;
+    font-size: 15px;
+}
+.FirstButtonSec1{
+    margin-top: 30px;
+    background-color: rgb(13, 148, 136);
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 130px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.SecondButtonSec1{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: rgb(244, 247, 246);
+    color: gray;
+    cursor: pointer;
+}
+.IconsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    margin-top: 30px;
+}
+.fa-truck{
+    margin-right: 6px;
+}
+.fa-circle-check{
+    margin: 0px 4px 0px 12px;
+}
+.fa-arrow-left{
+    margin: 0px 4px 0px 12px;
+}
+.fa-comment-dots{
+    margin: 0px 4px 0px 12px;
+}
+.ParagraphIcon{
+    font-size: 12px;
+}
+/* secondmother */
+.Card1{
+    margin-left: 20px;
+    cursor: pointer;
+    width: 280px;
+    height: 250px;
+    background:white;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.Card2{
+    margin-left: 20px;
+    cursor: pointer;
+    width: 280px;
+    height: 250px;
+    background:white;
+    border-radius: 6px;
+    position: relative;
+    border: 1px solid rgb(13, 148, 136);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.badge{
+    width: 52px;
+    background-color: rgb(242, 242, 242);
+    color: gray;
+    font-size: 10px;
+    font-weight: bold;
+    padding:6px 12px;
+    border-radius: 7px;
+    border: 1px solid;
+    position:absolute;
+    top:18px;
+    left:18px;
+}
+.badge2{
+    width: 67px;
+    background-color: rgb(242, 242, 242);
+    color: rgb(13, 148, 136);
+    font-size: 10px;
+    font-weight: bold;
+    padding:6px 12px;
+    border-radius: 7px;
+    border: 1px solid ;
+    position:absolute;
+    top:18px;
+    left:18px;
+}
+.product-image{
+    width:100%;
+    height: 70%;
+    display:flex;
+    justify-content:center;
+    border-radius: 5px;
+    background-color: rgb(250, 250, 251);
+}
+.product-image2{
+    width:100%;
+    height: 70%;
+    display:flex;
+    justify-content:center;
+    border-radius: 5px;
+    background-color: rgb(250, 250, 251);
+}
+.product-image2 img{
+    width:180px;
+    object-fit:contain;
+}
+.product-image img{
+    width:180px;
+    object-fit:contain;
+}
+.productname{
+    padding: 10px;
+}
+.price{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-left: 10px;
+}
+.new-price{
+    color: rgb(32, 142, 128);
+    font-size: 25px;
+    font-weight: bold;
+}
+.old-price{
+    color: gainsboro;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+.FisrtChild{
+    display: flex;
+}
+/* cardthree */
+.Card3{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 20px;
+    cursor: pointer;
+    width: 580px;
+    height: 220px;
+    background:white;
+    border-radius: 6px;
+    position: relative;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.badge3{
+    width: 71px;
+    background-color: rgb(242, 242, 242);
+    color: gray;
+    font-size: 10px;
+    font-weight: bold;
+    padding:6px 12px;
+    border-radius: 7px;
+    border: 1px solid ;
+    position:absolute;
+    top:18px;
+    left:18px;
+}
+.product-image3{
+    width:95%;
+    height: 100%;
+    display:flex;
+    justify-content:center;
+    border-radius: 5px;
+    background-color: rgb(250, 250, 251);
+}
+.product-image3 img{
+    width:180px;
+    object-fit:contain;
+}
+.DivTitle3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ParagraphCard3{
+    color: gray;
+    font-size: 15px;
+}
+.price3{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-top: 15px;
+}
+.TitleCard3{
+    margin-bottom: 10px;
+}
+/* !SecondSection */
+.SecondSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 247, 246);
+    padding-bottom: 30px;
+}
+.SecondMotherSec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(244, 247, 246);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.Card1-2{
+    cursor: pointer;
+    width: 242px;
+    height: 300px;
+    background:white;
+    border-radius: 6px;
+    position: relative;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.ParagraphCard1-2{
+    color: gray;
+    margin-left: 10px;
+    font-size: 10px;
+}
+.price1-2{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding: 5px 0px 0px 10px;
+}
+.badge1-2{
+    width: 19px;
+    background-color: rgb(242, 242, 242);
+    color: gray;
+    font-size: 10px;
+    font-weight: bold;
+    padding:6px 12px;
+    border-radius: 7px;
+    border: 1px solid;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+.badge2-2{
+    width: 19px;
+    background-color: rgb(242, 242, 242);
+    color:rgb(13, 148, 136);
+    font-size: 10px;
+    font-weight: bold;
+    padding:6px 12px;
+    border-radius: 7px;
+    border: 1px solid;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+/* dot  */
+.dots{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+.dot{
+    width: 12px;
+    height: 12px;
+    background: rgb(217, 217, 217);
+    border-radius: 50%;
+}
+.dot.active{
+    width: 45px;
+    height: 12px;
+    background: rgb(32, 142, 128);
+    border-radius: 20px;
+}
+/* !section3 */
+/* ThirdSection */
+.ThirdSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.Bouclegirl{
+    width: 560px;
+    border-radius: 5px;
+}
+.Card1-3{
+    border: 1px solid gainsboro;
+    margin-left: 10px;
+    padding: 10px;
+    height: 295px;
+    border-radius: 5px;
+}
+.badge1-3{
+    color: rgb(13, 148, 136);
+    background-color: rgb(220, 237, 235);
+    width: 120px;
+    border-radius: 16px;
+    border: 1px solid ;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+    margin: 20px 0px 20px 17px;
+}
+.TitleSec3{
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 17px;
+}
+.ParagraphSec3{
+    color: gray;
+    font-size: 14px;
+    margin-left: 17px;
+}
+.IconDiv3{
+    display: flex;
+    gap: 5px;
+    margin-top: 8px;
+}
+.ButtonExploreSec3{
+    margin: 20px 0px 0px 15px;
+    background-color: rgb(13, 148, 136);
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 185px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.IconCir{
+    color: rgb(98, 173, 164);
+}
 
 
