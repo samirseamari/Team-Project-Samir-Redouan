@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.hdr{
+    background-color: rgb(246, 251, 250);
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-direction: row; */
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items:center;
+    margin-right: 600px;
+    color: gray;
+}
+.prgh{ color: green;
+    display: flex;
+    align-items:center;
+}
+
+.shopwise{
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+    gap: 10px;
+
+}
+.hdr2{ border: 1px solid;
+    border-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.search-container {
+  padding: 20px;
+  background-color: #ffffff;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 4px 4px 4px 300px;
+  max-width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.search-icon {
+  color: #9e9e9e;
+  font-size: 18px;
+}
+
+input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  font-size: 16px;
+  color: #212121;
+  /* margin-left: 200px; */
+}
+
+input::placeholder {
+  color: #bdbdbd;
+}
+
+button {
+  background-color: #00897b; 
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #00796b;
+}
+.hdr2-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 9%;
+    gap: 10px;
+    font-size:x-large;
+}
+.nav-bar{
+    display: flex;
+    align-items:center ;
+
+    /* text-align: center; */
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px; 
+    margin-right: 80px; 
+}
+.NAV{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: left;
+    gap: 40px;
+    padding: 20px;
+    /* text-align: left; */
+}
+.Links{
+    font-size: 12px;
+    text-decoration: none;
+    color: gray;
+}
+
+
