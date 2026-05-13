@@ -880,3 +880,217 @@ main {
   margin-left: 6px;
   font-size: 15px;
 }
+/* footer  */
+* {
+    margin: 0px;
+    margin: 0px;
+}
+
+.footer  {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 60px;
+    justify-content: space-between;
+    color: gray;   
+}
+.first-title-foot{ display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+    /* margin-bottom:20px ; */
+    /* margin-top: 60px; */
+
+}
+.adress{
+    background-color: rgb(243, 249, 249);
+    height: 40vh;
+    margin-bottom: 20px;
+    padding: 40px;
+
+}
+.adress-container {
+  padding: 20px;
+  /* background-color: #ffffff; */
+  /* background-color: #2b128d; */
+  /* width: 100%; */
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+}
+.email-adress-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 4px 4px 4px 20px;
+  /* max-width: 80%; */
+  font-family: Arial, sans-serif;
+  background-color:white;
+  width: 500px;
+
+}
+.ParagraphFree{
+  color: gray;
+}
+input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  font-size: 16px;
+  color: #212121;
+  /* width: 50%; */
+  /* margin-left: 200px; */
+}
+
+input::placeholder {
+  color: #bdbdbd;
+  /* background-color: #8082b3; */
+  display: flex;
+ 
+
+}
+.PrgrphFoot{
+  margin-top: 10px;
+}
+button {
+  background-color: #00897b; 
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+    background-color: #00796b;
+}
+.DivShop{
+  margin-top: 40px;
+}
+
+.prt1 {
+    text-align: left;
+    /* gap: 40px; */
+}
+
+.titre-foot {
+    display: flex;
+    color: black;
+    margin-bottom: 10px;
+    
+}
+
+.prgh-foot {
+    display: flex;
+    color: gray;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.icon-foot-prt1 {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+.icon-foot-prt1 i { 
+    color: green;
+}
+.icon-foot-prt1 P{
+    color: gray;
+}
+.prt5{
+    display: flex;
+    flex-direction: column;
+} 
+.AppStoreDivGoogle{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.icon-app-store{
+    background-color: rgb(238, 239, 241);
+    color: gray;
+    display: flex;
+    padding: 10px;
+    width: 100px;
+    border-radius: 7px;
+}
+.icon-googleply{
+    background-color: rgb(238, 239, 241);
+    color: gray;
+    display: flex;
+    padding: 10px;
+    width: 100px;
+    border-radius: 7px;
+}
+.media-sc{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    margin-top: 10px;
+}
+.IconsDiv i{
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 100%;
+    border: none;
+    border: 1px  ;
+    background-color: rgb(242, 237, 237);
+
+}
+.ParagraphPartie5{
+    margin-right: 33px;
+}
+.titre-foot5{
+    margin-bottom: 17px;
+    display: flex;
+    color: black;
+}
+.paiment { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    font-size: x-large; 
+    color: gray;
+}
+.dernier-foot{
+    background-color: rgb(247, 247, 248);
+    padding: 100px; 
+    justify-content: right;
+    color: gray;  
+    align-items: center;
+
+}
+.prg-dernier-foot {
+    color: gray;
+    text-align: right;
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.clr{display: flex;
+    flex-direction: row;
+    color: rgb(131, 231, 131);  
+}
+.dv-btstrp{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.cntnt-foot-dernier{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
